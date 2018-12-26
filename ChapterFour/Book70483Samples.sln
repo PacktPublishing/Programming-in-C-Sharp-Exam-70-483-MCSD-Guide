@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter4", "Chapter4\Chapter4.csproj", "{7CE02353-001E-48CC-AF57-D9FC5666DEC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter4", "..\Book70483Samples\Chapter4\Chapter4.csproj", "{7CE02353-001E-48CC-AF57-D9FC5666DEC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter5", "Chapter5\Chapter5.csproj", "{0F78A782-CD8C-4AD8-AA0A-3E01E277B348}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter5", "..\Book70483Samples\Chapter5\Chapter5.csproj", "{0F78A782-CD8C-4AD8-AA0A-3E01E277B348}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
