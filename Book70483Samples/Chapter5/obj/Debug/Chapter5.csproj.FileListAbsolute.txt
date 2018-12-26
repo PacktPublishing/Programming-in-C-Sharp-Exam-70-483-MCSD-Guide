@@ -1,0 +1,7 @@
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Programming-in-C-Exam-70-483-MCSD-Guide\70483Samples\Chapter5\obj\Debug\Chapter5.csprojResolveAssemblyReference.cache
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Programming-in-C-Exam-70-483-MCSD-Guide\70483Samples\Chapter5\obj\Debug\Chapter5.csproj.CoreCompileInputs.cache
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Programming-in-C-Exam-70-483-MCSD-Guide\70483Samples\Chapter5\bin\Debug\Chapter5.exe.config
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Programming-in-C-Exam-70-483-MCSD-Guide\70483Samples\Chapter5\bin\Debug\Chapter5.exe
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Programming-in-C-Exam-70-483-MCSD-Guide\70483Samples\Chapter5\bin\Debug\Chapter5.pdb
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Programming-in-C-Exam-70-483-MCSD-Guide\70483Samples\Chapter5\obj\Debug\Chapter5.exe
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Programming-in-C-Exam-70-483-MCSD-Guide\70483Samples\Chapter5\obj\Debug\Chapter5.pdb
