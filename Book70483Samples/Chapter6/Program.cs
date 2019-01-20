@@ -8,7 +8,7 @@ namespace Chapter6
     {
         static void Main(string[] args)
         {
-            ThreadingSamples.RunSamples1();
+            ThreadingSamples.ThreadSample();
             ThreadingSamples.ThreadProperties();
             ThreadingSamples.ParameterizedThread();
             ThreadingSamples.BackgroundThread();
