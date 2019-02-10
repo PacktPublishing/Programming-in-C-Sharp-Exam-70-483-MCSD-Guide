@@ -1,0 +1,6 @@
+C:\Users\sbhalla1\Downloads\Programming-in-C-Exam-70-483-MCSD-Guide-master\Programming-in-C-Exam-70-483-MCSD-Guide-master\Book70483Samples\Chapter 3\obj\Debug\Chapter 3.csproj.CoreCompileInputs.cache
+C:\Users\sbhalla1\Downloads\Programming-in-C-Exam-70-483-MCSD-Guide-master\Programming-in-C-Exam-70-483-MCSD-Guide-master\Book70483Samples\Chapter 3\bin\Debug\Chapter 3.exe.config
+C:\Users\sbhalla1\Downloads\Programming-in-C-Exam-70-483-MCSD-Guide-master\Programming-in-C-Exam-70-483-MCSD-Guide-master\Book70483Samples\Chapter 3\bin\Debug\Chapter 3.exe
+C:\Users\sbhalla1\Downloads\Programming-in-C-Exam-70-483-MCSD-Guide-master\Programming-in-C-Exam-70-483-MCSD-Guide-master\Book70483Samples\Chapter 3\bin\Debug\Chapter 3.pdb
+C:\Users\sbhalla1\Downloads\Programming-in-C-Exam-70-483-MCSD-Guide-master\Programming-in-C-Exam-70-483-MCSD-Guide-master\Book70483Samples\Chapter 3\obj\Debug\Chapter 3.exe
+C:\Users\sbhalla1\Downloads\Programming-in-C-Exam-70-483-MCSD-Guide-master\Programming-in-C-Exam-70-483-MCSD-Guide-master\Book70483Samples\Chapter 3\obj\Debug\Chapter 3.pdb
