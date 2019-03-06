@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Book70483Samples/.vs/Book70483Samples/v15/Server/sqlite3
+/Book70483Samples/Chapter4/obj/Debug
+/Book70483Samples/Chapter5/obj/Debug
+/Book70483Samples/Chapter6/obj/Debug
+/Book70483Samples/Chapter7/obj/Debug
+/Book70483Samples/.vs/config

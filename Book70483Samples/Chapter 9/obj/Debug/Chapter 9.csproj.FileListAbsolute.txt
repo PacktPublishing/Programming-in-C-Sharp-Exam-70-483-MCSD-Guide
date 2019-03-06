@@ -1,0 +1,6 @@
+C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 9\obj\Debug\Chapter 9.csproj.CoreCompileInputs.cache
+C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 9\bin\Debug\Chapter9.exe.config
+C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 9\bin\Debug\Chapter9.exe
+C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 9\bin\Debug\Chapter9.pdb
+C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 9\obj\Debug\Chapter9.exe
+C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 9\obj\Debug\Chapter9.pdb
