@@ -120,6 +120,15 @@ namespace Chapter7
                 }
             }
         }
+
+        public static void ExceptionTest7()
+        {
+            string str = string.Empty;
+            try
+            {
+                int parseInt = int.Parse(str);
+            }
+        }
     }
 
     public class MyCustomException : Exception
