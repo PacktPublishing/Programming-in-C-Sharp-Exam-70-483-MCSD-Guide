@@ -1,7 +1,0 @@
-C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter6\bin\Debug\Chapter6.exe.config
-C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter6\bin\Debug\Chapter6.exe
-C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter6\bin\Debug\Chapter6.pdb
-C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter6\obj\Debug\Chapter6.csprojResolveAssemblyReference.cache
-C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter6\obj\Debug\Chapter6.csproj.CoreCompileInputs.cache
-C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter6\obj\Debug\Chapter6.exe
-C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter6\obj\Debug\Chapter6.pdb
