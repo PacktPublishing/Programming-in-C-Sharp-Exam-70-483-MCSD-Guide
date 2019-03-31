@@ -120,7 +120,7 @@ namespace Chapter_16
     {
         static void Main(string[] args)
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(Student));
+            /*XmlSerializer serializer = new XmlSerializer(typeof(Student));
             string fileName = "StudentDataWithScores";
             using (TextWriter writer = new StreamWriter(fileName))
             {
@@ -152,6 +152,121 @@ namespace Chapter_16
             {
                 StudentBinaryInterface studeseria = (StudentBinaryInterface)formatterInterface.Deserialize(stream);
             }
+
+            CollectionOperations();
+            ListCollectionOperations();
+            DictionaryCollectionOperations();
+            QueueOperations();*/
+            StackOperations();
+            Console.ReadLine();
+        }
+
+        public static void CollectionOperations()
+        {
+            int[] arrayOfInt = new int[10];
+            for (int x = 0; x < arrayOfInt.Length; x++)
+            {
+                arrayOfInt[x] = x;
+            }
+            foreach (int i in arrayOfInt)
+            {
+                Console.Write(i); 
+            }
+            Console.WriteLine();
+
+            int[,] arrayInt = new int[3,2] { { 1, 2 }, { 3, 4 }, { 5, 6 } };
+            for (int i=0; i < 3; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    Console.WriteLine(arrayInt[i, j]);
+                }                
+            }
+        }
+
+        public static void ListCollectionOperations()
+        {
+            List<int> vs = new List<int> { 1, 2, 3, 4, 5, 6 };
+            for (int x = 0; x < vs.Count; x++)
+                Console.Write(vs[x]); 
+            vs.Remove(1);
+            Console.WriteLine(vs[0]); 
+            vs.Add(7);
+            Console.WriteLine(vs.Count); 
+            bool hasC = vs.Contains(4);
+            Console.WriteLine(hasC); 
+        }
+
+        public static void DictionaryCollectionOperations()
+        {
+            Dictionary<int, int> vs = new Dictionary<int, int>();
+            for (int x = 0; x < 5; x++)
+            {
+                vs.Add(x, x * 100);
+            }
+
+            foreach(KeyValuePair<int, int> keyValue in vs)
+            {
+                Console.WriteLine(keyValue.Key + " " + keyValue.Value);
+            }
+            vs.Add(1, 1000);
+            vs.Remove(1);
+            vs.Add(5, 500);
+            Console.WriteLine(vs.Count);
+            bool hasKey = vs.ContainsKey(4);
+            bool hasValue = vs.ContainsValue(900);
+            Console.WriteLine(hasKey);
+            Console.WriteLine(hasValue);
+        }
+
+        public static void QueueOperations()
+        {
+            Queue<string> que = new Queue<string>();
+            que.Enqueue("E");
+            que.Enqueue("D");
+            que.Enqueue("C");
+            que.Enqueue("B");
+            que.Enqueue("A");
+            int index = 0;
+            foreach(string s in que)
+            {
+                Console.WriteLine("Queue Element at index " + index + " is " + s);
+                index++;
+            }
+            Console.WriteLine("Queue Element at top of the queue is " + que.Peek());
+            que.Dequeue();
+            index = 0;
+            foreach (string s in que)
+            {
+                Console.WriteLine("Queue Element at index " + index + " is " + s);
+                index++;
+            }
+        }
+
+        public static void StackOperations()
+        {
+            Stack<string> sta = new Stack<string>();
+            sta.Push("E");
+            sta.Push("D");
+            sta.Push("C");
+            sta.Push("B");
+            sta.Push("A");
+            int index = 0;
+            foreach (string s in sta)
+            {
+                Console.WriteLine("Stack Element at index " + index + " is " + s);
+                index++;
+            }
+            Console.WriteLine("Stack Element at top of the stack is " + sta.Peek());
+            sta.Pop();
+            index = 0;
+            foreach (string s in sta)
+            {
+                Console.WriteLine("Stack Element at index " + index + " is " + s);
+                index++;
+            }
+
+            Student[] arrays = new Student[] { };
         }
     }
 }
