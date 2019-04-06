@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Students>
+  <student>
+    <FirstName>Studnet1</FirstName>
+    <LastName>Slast</LastName>
+    <School>School1</School>
+    <DOB>23/10/1988</DOB>
+  </student>
+</Students>

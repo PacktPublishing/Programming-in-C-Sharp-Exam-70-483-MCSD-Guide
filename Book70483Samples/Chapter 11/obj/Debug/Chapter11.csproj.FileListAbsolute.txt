@@ -1,0 +1,12 @@
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 11\bin\Debug\Chapter11.exe.config
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 11\bin\Debug\Chapter11.exe
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 11\bin\Debug\Chapter11.pdb
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 11\obj\Debug\Chapter11.csprojResolveAssemblyReference.cache
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 11\obj\Debug\Chapter11.csproj.CoreCompileInputs.cache
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 11\obj\Debug\Chapter11.exe
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 11\obj\Debug\Chapter11.pdb
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 11\bin\Debug\Sample.xml
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 11\bin\Debug\Sample.xsd
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 11\bin\Debug\Newtonsoft.Json.dll
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 11\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 11\bin\Debug\Newtonsoft.Json.xml
