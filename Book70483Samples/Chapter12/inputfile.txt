@@ -1,0 +1,1 @@
+﻿This is the text we are trying to encyrpt. we will wirte the output into outputfile.txt. THis seems to be a small file so we will try to add more text in the file so we get more than 100 bytes when we read each time.
