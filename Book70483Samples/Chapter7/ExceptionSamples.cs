@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
@@ -104,8 +105,8 @@ namespace Chapter7
 
         public static void ExceptionTest6()
         {
-            System.IO.FileStream file = null;
-            System.IO.FileInfo fileinfo = new System.IO.FileInfo("C:\\Windows\\Temp\\file.txt");
+            FileStream file = null;
+            FileInfo fileinfo = new FileInfo("Dummyfile.txt");
             try
             {
                 file = fileinfo.OpenWrite();
