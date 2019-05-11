@@ -1,0 +1,4 @@
+Entered number 1 is: 23
+Entered number 2 is: 23
+Sum of number1 & number 2 is : 46
+Difference of number1 & number 2 is : 0

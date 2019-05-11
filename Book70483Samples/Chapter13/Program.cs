@@ -10,6 +10,11 @@ namespace Chapter13
     {
         static void Main(string[] args)
         {
+            //new DebugHelperClass().Method1();
+            //new DebugHelperClass().Method2();
+            //new DebugHelperClass().Method4();
+            new DebugHelperClass().Method5();
+            Console.ReadLine();
         }
     }
 }
