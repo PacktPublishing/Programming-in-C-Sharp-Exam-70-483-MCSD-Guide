@@ -48,6 +48,14 @@ namespace CodeSamples
             Console.WriteLine("'--' operator");
             Console.WriteLine(--firstvalue); // output = 5
 
+            // '++' Operator
+            Console.WriteLine("'++' operator");
+            Console.WriteLine(firstvalue++); // output = 5
+
+            // '--' Operator
+            Console.WriteLine("'--' operator");
+            Console.WriteLine(firstvalue--); // output = 6
+
             // '<' Operator
             Console.WriteLine("'<' operator");
             Console.WriteLine(firstvalue < secondvalue); // output = true
