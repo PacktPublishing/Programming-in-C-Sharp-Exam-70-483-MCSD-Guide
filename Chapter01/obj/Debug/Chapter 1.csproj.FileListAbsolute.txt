@@ -1,0 +1,7 @@
+C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 1\bin\Debug\Chapter 1.exe.config
+C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 1\bin\Debug\Chapter 1.exe
+C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 1\bin\Debug\Chapter 1.pdb
+C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 1\obj\Debug\Chapter 1.csprojAssemblyReference.cache
+C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 1\obj\Debug\Chapter 1.csproj.CoreCompileInputs.cache
+C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 1\obj\Debug\Chapter 1.exe
+C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 1\obj\Debug\Chapter 1.pdb
