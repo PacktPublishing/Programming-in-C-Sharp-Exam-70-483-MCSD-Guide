@@ -1,0 +1,15 @@
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Chapter4\Chapter4\bin\Debug\CodeSamples.exe.config
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Chapter4\Chapter4\bin\Debug\CodeSamples.exe
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Chapter4\Chapter4\bin\Debug\CodeSamples.pdb
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Chapter4\Chapter4\obj\Debug\CodeSamples.exe
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Chapter4\Chapter4\obj\Debug\CodeSamples.pdb
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Chapter4\Chapter4\obj\Debug\CodeSamples.csprojResolveAssemblyReference.cache
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\ChapterFour\Chapter4\bin\Debug\CodeSamples.exe.config
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\ChapterFour\Chapter4\obj\Debug\CodeSamples.exe
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\ChapterFour\Chapter4\obj\Debug\CodeSamples.pdb
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Programming-in-C-Exam-70-483-MCSD-Guide\ChapterFour\Chapter4\bin\Debug\CodeSamples.exe.config
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Programming-in-C-Exam-70-483-MCSD-Guide\ChapterFour\Chapter4\obj\Debug\CodeSamples.exe
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Programming-in-C-Exam-70-483-MCSD-Guide\ChapterFour\Chapter4\obj\Debug\CodeSamples.pdb
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Programming-in-C-Exam-70-483-MCSD-Guide\ChapterFour\Chapter4\bin\Debug\CodeSamples.exe
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Programming-in-C-Exam-70-483-MCSD-Guide\ChapterFour\Chapter4\bin\Debug\CodeSamples.pdb
+C:\Users\srini\OneDrive\70-483 Book\Sourcecode\Programming-in-C-Exam-70-483-MCSD-Guide\ChapterFour\Chapter4\obj\Debug\CodeSamples.csprojResolveAssemblyReference.cache
