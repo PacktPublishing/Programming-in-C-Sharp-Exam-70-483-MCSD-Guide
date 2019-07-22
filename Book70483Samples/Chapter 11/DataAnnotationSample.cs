@@ -9,6 +9,7 @@ namespace Chapter11
         [StringLength(100,MinimumLength =5,ErrorMessage ="Name should have minimum of 5 characters")]
         [DataType(DataType.Text)]
         public string FullName { get; set; }
+
         [DataType(DataType.EmailAddress)]
         [EmailAddress]
         public string EmailAddress { get; set; }

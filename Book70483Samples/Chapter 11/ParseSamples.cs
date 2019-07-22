@@ -8,7 +8,7 @@ namespace Chapter11
 {
     internal class ParseSamples
     {
-        internal void ProcessBools(string boolValue)
+        internal void ProcessBool(string boolValue)
         {
             if (bool.Parse(boolValue))
             {
@@ -16,7 +16,7 @@ namespace Chapter11
             }
         }
 
-        internal void ProcessIntegers(string intValue)
+        internal void ProcessInteger(string intValue)
         {
             
             int processedValue =int.MinValue;

@@ -21,11 +21,11 @@ namespace Chapter11
             switch (args.Length)
             {
                 case 1:
-                    ps.ProcessBools(args[0]);
+                    ps.ProcessBool(args[0]);
                     break;
                 case 2:
-                    ps.ProcessBools(args[0]);
-                    ps.ProcessIntegers(args[1]);
+                    ps.ProcessBool(args[0]);
+                    ps.ProcessInteger(args[1]);
                     break;
                 default:
                     Console.WriteLine("Please provide one or two command line arguments");
@@ -81,8 +81,9 @@ namespace Chapter11
         }
         static void ValidationEventHandler(object sender, ValidationEventArgs e)
         {
-            XmlSeverityType type = XmlSeverityType.Warning;
-            if (Enum.TryParse<XmlSeverityType>("Error", out type))
+            
+            XmlSeverityType type;
+            if (Enum.TryParse<XmlSeverityType>(e.Severity.ToString(), out type))
             {
                 if (type == XmlSeverityType.Error)
                 {
