@@ -92,35 +92,55 @@ namespace Chapter12
         {
             UnicodeEncoding uc = new UnicodeEncoding();
             Console.WriteLine("Converting to bytes from text");
+
+            //get bytearray from the message
             byte[] databytes = uc.GetBytes(texttoEncrypt);
             Console.WriteLine("Creating crypoclass instance");
+
+            //Creating instance for RSACryptoservice provider as we are using for sender and receiver
             RSACryptoServiceProvider rsasender = new RSACryptoServiceProvider();
             RSACryptoServiceProvider rsareceiver = new RSACryptoServiceProvider();
+
+            //getting private and public key
             rsasender.FromXmlString(senderPrivatekey);
             rsareceiver.FromXmlString(receirverspublickey);
             Console.WriteLine("Creating signature formatter instance");
+
+            //GEt signature from RSA
             RSAPKCS1SignatureFormatter signatureFormatter = new RSAPKCS1SignatureFormatter(rsasender);
+
+            //set hashalgorithm
             signatureFormatter.SetHashAlgorithm("SHA1");
+
+            //encrypt message
             Console.WriteLine("encrypting message");
             byte[] encryptedBytes = rsareceiver.Encrypt(databytes, false);
+            //compute hash
             byte[] computedhash = new SHA1Managed().ComputeHash(encryptedBytes);
             Console.WriteLine("Creating signature");
+
+            //create signature for the message
             byte[] signature = signatureFormatter.CreateSignature(computedhash);
             Console.WriteLine("Signature: " + Convert.ToBase64String(signature));
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
 
+            //receive message then recompute hash
             Console.WriteLine("recomputing hash");
             byte[] recomputedHash = new SHA1Managed().ComputeHash(encryptedBytes);
+            //signature deformatter
             Console.WriteLine("Creating signature dformatter instance");
             RSAPKCS1SignatureDeformatter signatureDFormatter = new RSAPKCS1SignatureDeformatter(rsareceiver);
             signatureDFormatter.SetHashAlgorithm("SHA1");
+
+            //verify signature
             Console.WriteLine("verifying signature");
             if (!signatureDFormatter.VerifySignature(recomputedHash, signature))
             {
                 Console.WriteLine("Signature did not match from sender");
             }
             Console.WriteLine("decrypting message");
+            //decrypt message
             byte[] decryptedText = rsasender.Decrypt(encryptedBytes, false);
             Console.WriteLine(Encoding.UTF8.GetString(decryptedText));
         }
