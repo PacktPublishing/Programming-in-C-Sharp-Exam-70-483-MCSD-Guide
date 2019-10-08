@@ -6,27 +6,27 @@ using System.Threading.Tasks;
 
 namespace Chapter6
 {
-    internal class Account
+    internal class BankAcc
     {
         private readonly object AcountBalLock = new object();
         private decimal balanceamount;
 
-        public Account(decimal initialBalance)
+        public BankAcc(decimal iBal)
         {
-            balanceamount = initialBalance;
+            balanceamount = iBal;
         }
 
-        public decimal Debit(decimal amount)
+        public decimal Debit(decimal amt)
         {
             lock (AcountBalLock)
             {
-                if (balanceamount >= amount)
+                if (balanceamount >= amt)
                 {
                     Console.WriteLine($"Balance before debit :{balanceamount,5}");
-                    Console.WriteLine($"Amount to debit     :{amount,5}");
-                    balanceamount = balanceamount - amount;
+                    Console.WriteLine($"Amount to debit     :{amt,5}");
+                    balanceamount = balanceamount - amt;
                     Console.WriteLine($"Balance after debit  :{balanceamount,5}");
-                    return amount;
+                    return amt;
                 }
                 else
                 {
@@ -35,13 +35,13 @@ namespace Chapter6
             }
         }
 
-        public void Credit(decimal amount)
+        public void Credit(decimal amt)
         {
             lock (AcountBalLock)
             {
                 Console.WriteLine($"Balance before credit:{balanceamount,5}");
-                Console.WriteLine($"Amount to credit        :{amount,5}");
-                balanceamount = balanceamount + amount;
+                Console.WriteLine($"Amount to credit        :{amt,5}");
+                balanceamount = balanceamount + amt;
                 Console.WriteLine($"Balance after credit :{balanceamount,5}");
             }
         }

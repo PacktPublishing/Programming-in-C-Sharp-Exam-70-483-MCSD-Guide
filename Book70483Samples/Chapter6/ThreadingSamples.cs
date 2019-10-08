@@ -73,7 +73,7 @@ namespace Chapter6
 
         public static void TestLockStatements()
         {
-            var account = new Account(1000);
+            var account = new BankAcc(1000);
             var tasks = new Task[2];
             for (int i = 0; i < tasks.Length; i++)
             {
@@ -149,7 +149,7 @@ namespace Chapter6
         }
 
 
-        private static void UpdateAccount(Account account)
+        private static void UpdateAccount(BankAcc account)
         {
             var rnd = new Random();
             for (int i = 0; i < 10; i++)

@@ -8,67 +8,67 @@ namespace Chapter5
 {
     public class EventSamples
     {
-        private void NotifyCustomer(object sender, TransactionEventArgs e)
+        private void AlertCustomer(object sender, BankTransEventArgs e)
         {
             Console.WriteLine("Your Account is {0} for Rs.{1} ", e.TranactionType, e.TranactionAmount);
         }
         public void Run()
         {
-            Account MyAccount = new Account();
+            Account bankAccount = new Account();
 
-            MyAccount.ProcessTransaction += new TransactionHandler(NotifyCustomer);
-            MyAccount.SetInitialDeposit(5000);
-            MyAccount.ShowBalance();
-            MyAccount.Credit(500);
-            MyAccount.ShowBalance();
-            MyAccount.Debit(500);
-            MyAccount.ShowBalance();
+            bankAccount.ProcessTransaction += new BankTransHandler(AlertCustomer);
+            bankAccount.SetInitialDeposit(5000);
+            bankAccount.ShowBalance();
+            bankAccount.Credit(500);
+            bankAccount.ShowBalance();
+            bankAccount.Debit(500);
+            bankAccount.ShowBalance();
         }
     }
 
-    public delegate void TransactionHandler(object sender, TransactionEventArgs e); // Delegate Definition 
+    public delegate void BankTransHandler(object sender, BankTransEventArgs e); // Delegate Definition 
     class Account
     {
-        public event TransactionHandler ProcessTransaction; // Event Definition
-        public int BalanceAmount;
+        public event BankTransHandler ProcessTransaction; // Event Definition
+        public int BALAmount;
         public void SetInitialDeposit(int amount)
         {
-            this.BalanceAmount = amount;
-            TransactionEventArgs e = new TransactionEventArgs(amount, "InitialBalance");
+            this.BALAmount = amount;
+            BankTransEventArgs e = new BankTransEventArgs(amount, "InitialBalance");
             OnProcessTransaction(e); // InitialBalance transaction made 
         }
         public void Debit(int debitAmount)
         {
-            if (debitAmount < BalanceAmount)
+            if (debitAmount < BALAmount)
             {
-                BalanceAmount = BalanceAmount - debitAmount;
-                TransactionEventArgs e = new TransactionEventArgs(debitAmount, "Debited");
+                BALAmount = BALAmount - debitAmount;
+                BankTransEventArgs e = new BankTransEventArgs(debitAmount, "Debited");
                 OnProcessTransaction(e); // Debit transaction made 
             }
         }
         public void Credit(int creditAmount)
         {
-            BalanceAmount = BalanceAmount + creditAmount;
-            TransactionEventArgs e = new TransactionEventArgs(creditAmount, "Credited");
+            BALAmount = BALAmount + creditAmount;
+            BankTransEventArgs e = new BankTransEventArgs(creditAmount, "Credited");
             OnProcessTransaction(e); // Credit transaction made
         }
 
         public void ShowBalance()
         {
-            TransactionEventArgs e = new TransactionEventArgs(BalanceAmount, "Total Balance");
+            BankTransEventArgs e = new BankTransEventArgs(BALAmount, "Total Balance");
             OnProcessTransaction(e); // Credit transaction made
         }
-        protected virtual void OnProcessTransaction(TransactionEventArgs e)
+        protected virtual void OnProcessTransaction(BankTransEventArgs e)
         {
             ProcessTransaction?.Invoke(this, e);
         }
     }
 
-    public class TransactionEventArgs : EventArgs
+    public class BankTransEventArgs : EventArgs
     {
         private int _transactionAmount;
         private string _transactionType;
-        public TransactionEventArgs(int amt, string type)
+        public BankTransEventArgs(int amt, string type)
         {
             this._transactionAmount = amt;
             this._transactionType = type;

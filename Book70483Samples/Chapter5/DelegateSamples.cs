@@ -75,20 +75,17 @@ namespace Chapter5
 
         public void LambdaOperatorExample()
         {
-            string[] words = { "cherry", "apple", "blueberry" };
+            string[] words = { "bottle", "jar", "drum" };
 
-            // Use method syntax to apply a lambda expression to each element  
-            // of the words array.   
-            string searchedWord = words.Where(w => w.Equals("apple")).FirstOrDefault();
+            // apply lambda expression to each eleent in the array
+            string searchedWord = words.Where(w => w.Equals("drum")).FirstOrDefault();
             Console.WriteLine(searchedWord);
 
-            // Compare the following code that uses query syntax.  
-            // Get the lengths of each word in the words array.  
+            // Get the length of each word in the array.  
             var query = from w in words
-                        where w.Equals("apple")
+                        where w.Equals("drum")
                         select w;
                         
-            // Apply the Min method to execute the query and get the shortest length.  
             string search2 = query.FirstOrDefault();
             Console.WriteLine(search2);
 
