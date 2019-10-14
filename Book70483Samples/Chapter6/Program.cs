@@ -8,6 +8,8 @@ namespace Chapter6
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine("Press any key to start execution.");
+            System.Console.ReadKey();
             ThreadingSamples.ThreadSample();
             ThreadingSamples.ThreadProperties();
             ThreadingSamples.ParameterizedThread();
