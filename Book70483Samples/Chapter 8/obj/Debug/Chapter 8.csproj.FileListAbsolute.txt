@@ -5,3 +5,9 @@ C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapte
 C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 8\obj\Debug\Chapter 8.exe
 C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 8\obj\Debug\Chapter 8.pdb
 C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 8\obj\Debug\Chapter 8.csprojAssemblyReference.cache
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 8\bin\Debug\Chapter 8.exe.config
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 8\bin\Debug\Chapter 8.exe
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 8\bin\Debug\Chapter 8.pdb
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 8\obj\Debug\Chapter 8.csproj.CoreCompileInputs.cache
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 8\obj\Debug\Chapter 8.exe
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 8\obj\Debug\Chapter 8.pdb

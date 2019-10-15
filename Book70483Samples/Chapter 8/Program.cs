@@ -29,8 +29,11 @@ namespace Chapter_8
     }
     class Program
     {
+
         static void Main(string[] args)
         {
+            System.Console.WriteLine("Press any key to start execution.");
+            System.Console.ReadKey();
             ReadAssembly();
             StringSearchFunction();
             string xmlFile = CreateXMLFile();
@@ -66,6 +69,9 @@ namespace Chapter_8
             {
                 sb.Append("a");               
             }
+
+            System.Console.WriteLine("Press any key to exit.");
+            System.Console.ReadKey();
         }
 
         static private string CreateXMLFile()
@@ -139,7 +145,8 @@ namespace Chapter_8
 
         static private void ReadAssembly()
         {
-            string path = @"C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 8\bin\Debug\LinkGroup.Dev.Common.dll";
+            //string path = @"C:\UCN Code Base\Programming-in-C-Exam-70-483-MCSD-Guide\Book70483Samples\Chapter 8\bin\Debug\LinkGroup.Dev.Common.dll";
+            string path = @"C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 8\bin\Debug\LinkGroup.Dev.Common.dll";
             Assembly assembly = Assembly.LoadFile(path);
             Type[] types = assembly.GetTypes();
             foreach(var type in types)

@@ -18,6 +18,8 @@ namespace Chapter_2
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine("Press any key to start execution.");
+            System.Console.ReadKey();
             dynamic typeVariable = 100;
             Console.WriteLine(typeVariable + typeVariable.GetType().ToString());
             typeVariable = "Hello";
@@ -45,8 +47,8 @@ namespace Chapter_2
             carB.ImplementAccelerator();
             carB.ImplementBrake();
             carB.RoofTopExtendable();
-            Console.ReadLine();
-
+            System.Console.WriteLine("Press any key to exit.");
+            System.Console.ReadKey();
         }
 
         static void ChangeValuesClass(CoordinatePoint obj)

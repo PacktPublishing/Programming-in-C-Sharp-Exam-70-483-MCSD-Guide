@@ -10,6 +10,9 @@ namespace Chapter_3
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine("Press any key to start execution.");
+            System.Console.ReadKey();
+
             Customer customer = new Customer();
             customer.name = "Sample Customer";
             customer.customerId = "12345";
@@ -40,7 +43,8 @@ namespace Chapter_3
 
             animal = new Human("India", 2, 2);
             animal.Speak();
-            Console.ReadLine();
+            System.Console.WriteLine("Press any key to exit.");
+            System.Console.ReadKey();
         }
 
         static int AddNumber(int a, int b)

@@ -5,3 +5,10 @@ C:\Users\sbhalla1\Downloads\Programming-in-C-Exam-70-483-MCSD-Guide-master\Progr
 C:\Users\sbhalla1\Downloads\Programming-in-C-Exam-70-483-MCSD-Guide-master\Programming-in-C-Exam-70-483-MCSD-Guide-master\Book70483Samples\Chapter 2\obj\Debug\Chapter 2.csproj.CoreCompileInputs.cache
 C:\Users\sbhalla1\Downloads\Programming-in-C-Exam-70-483-MCSD-Guide-master\Programming-in-C-Exam-70-483-MCSD-Guide-master\Book70483Samples\Chapter 2\obj\Debug\Chapter 2.exe
 C:\Users\sbhalla1\Downloads\Programming-in-C-Exam-70-483-MCSD-Guide-master\Programming-in-C-Exam-70-483-MCSD-Guide-master\Book70483Samples\Chapter 2\obj\Debug\Chapter 2.pdb
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 2\bin\Debug\Chapter 2.exe.config
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 2\bin\Debug\Chapter 2.exe
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 2\bin\Debug\Chapter 2.pdb
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 2\obj\Debug\Chapter 2.csprojResolveAssemblyReference.cache
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 2\obj\Debug\Chapter 2.csproj.CoreCompileInputs.cache
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 2\obj\Debug\Chapter 2.exe
+C:\Users\srini\source\repos\Programming-in-C-Exam-70-483-MCSD-Guide2\Book70483Samples\Chapter 2\obj\Debug\Chapter 2.pdb
