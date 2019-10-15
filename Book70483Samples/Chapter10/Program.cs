@@ -12,10 +12,13 @@ namespace Chapter10
     {
         static void Main(string[] args)
         {
-            //ChapterInfoAttribute _attribute = (ChapterInfoAttribute)Attribute.GetCustomAttribute(typeof(Program), typeof(ChapterInfoAttribute));
-            //Console.WriteLine($"Chapter Name is: {_attribute.ChapterName} and Chapter Author is: {_attribute.ChapterAuthor}");
+            System.Console.WriteLine("Press any key to start execution.");
+            System.Console.ReadKey();
 
-            //CallCustomerClass();
+            ChapterInfoAttribute _attribute = (ChapterInfoAttribute)Attribute.GetCustomAttribute(typeof(Program), typeof(ChapterInfoAttribute));
+            Console.WriteLine($"Chapter Name is: {_attribute.ChapterName} and Chapter Author is: {_attribute.ChapterAuthor}");
+
+            CallCustomerClass();
 
             GetResults();
             // Keep the console window open in debug mode.
@@ -27,8 +30,8 @@ namespace Chapter10
         {
             Type _customerType = typeof(Customerclass);
             object _obj = Assembly.GetExecutingAssembly().CreateInstance(_customerType.FullName);
-            MethodInfo methods = _customerType.GetMethod("DisplayMethod",BindingFlags.Public);
-            methods.Invoke(_obj, new object []{ "Madhav" });
+            MethodInfo methods = _customerType.GetMethod("DisplayMessage");
+            methods.Invoke(_obj, new object []{ "Reader" });
         }
 
         public static void GetResults()

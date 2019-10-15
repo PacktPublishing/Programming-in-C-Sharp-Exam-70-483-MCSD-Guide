@@ -10,6 +10,8 @@ namespace Chapter5
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine("Press any key to start execution.");
+            System.Console.ReadKey();
             DelegateSamples c5s = new DelegateSamples();
             c5s.NamedMethod();
             c5s.InvokeDelegate();

@@ -10,11 +10,15 @@ namespace Chapter13
     {
         static void Main(string[] args)
         {
-            //new DebugHelperClass().Method1();
-            //new DebugHelperClass().Method2();
-            //new DebugHelperClass().Method4();
+            System.Console.WriteLine("Press any key to start execution.");
+            System.Console.ReadKey();
+            new DebugHelperClass().Method1();
+            new DebugHelperClass().Method2();
+            new DebugHelperClass().Method4();
             new DebugHelperClass().Method5();
-            Console.ReadLine();
+            // Keep the console window open in debug mode.
+            System.Console.WriteLine("Press any key to exit.");
+            System.Console.ReadKey();
         }
     }
 }

@@ -17,6 +17,9 @@ namespace Chapter11
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine("Press any key to start execution.");
+            System.Console.ReadKey();
+
             ParseSamples ps = new ParseSamples();
             switch (args.Length)
             {
@@ -54,14 +57,16 @@ namespace Chapter11
                     Console.Write("   ::  {0}{1}", vr.ErrorMessage, Environment.NewLine);
                 }
             }
-
+            Console.Write("Loading and validating XML....");
             LoadXML();
 
+            Console.Write("Loading JSON....");
             string result = GetJson();
             Authors a = GetObject(result);
-            Console.ReadLine();
+            Console.Write("concatinating extra text to JSON....");
             string result1 = string.Concat(result, "Test");
-            Authors a1 = GetObject(result1);
+            Console.Write("deserializing JSON....");
+            Authors a1 = GetObject(result1)?? null;
 
             // Keep the console window open in debug mode.
             System.Console.WriteLine("Press any key to exit.");
@@ -104,8 +109,16 @@ namespace Chapter11
 
         static Authors GetObject(string result)
         {
-            Authors aresult = JsonConvert.DeserializeObject<Authors>(result);
-            Console.WriteLine($"Name: {aresult.AuthorName}, Skills = {aresult.Skills}, DOB = {aresult.DOB}");
+            Authors aresult = null;
+            try
+            {
+                aresult = JsonConvert.DeserializeObject<Authors>(result);
+                Console.WriteLine($"Name: {aresult.AuthorName}, Skills = {aresult.Skills}, DOB = {aresult.DOB}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error validating json: {ex.Message}");
+            }
             return aresult;
         }
     }

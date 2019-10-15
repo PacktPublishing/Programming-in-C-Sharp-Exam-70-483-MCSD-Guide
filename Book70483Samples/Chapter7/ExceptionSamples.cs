@@ -124,14 +124,14 @@ namespace Chapter7
         /// <summary>
         /// below method is to throw complation error
         /// </summary>
-        public static void ExceptionTest7()
-        {
-            string str = string.Empty;
-            try
-            {
-                int parseInt = int.Parse(str);
-            }
-        }
+        //public static void ExceptionTest7()
+        //{
+        //    string str = string.Empty;
+        //    try
+        //    {
+        //        int parseInt = int.Parse(str);
+        //    }
+        //}
     }
 
     public class MyCustomException : Exception

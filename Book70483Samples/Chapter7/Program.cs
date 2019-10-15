@@ -10,11 +10,28 @@ namespace Chapter7
     {
         static void Main(string[] args)
         {
-            //ExceptionSamples.ExceptionTest1();
-            //ExceptionSamples.ExceptionTest2();
-            //ExceptionSamples.ExceptionTest3();
-            //ExceptionSamples.ExceptionTest4();
-            //ExceptionSamples.ExceptionTest5();
+            System.Console.WriteLine("Press any key to start execution.");
+            System.Console.ReadKey();
+            try
+            {
+                ExceptionSamples.ExceptionTest1();
+            }
+            catch (Exception ex)
+            {
+                //catching exception in main program as to avoid intrruption in execution
+            }
+            ExceptionSamples.ExceptionTest2();
+            ExceptionSamples.ExceptionTest3();
+            ExceptionSamples.ExceptionTest4();
+            try
+            {
+                ExceptionSamples.ExceptionTest5();
+            }
+            catch (Exception ex)
+            {
+                //catching exception in main program as to avoid intrruption in execution 
+            }
+
             ExceptionSamples.ExceptionTest6();
 
             // Keep the console window open in debug mode.

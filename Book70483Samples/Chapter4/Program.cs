@@ -8,9 +8,11 @@ namespace CodeSamples
     {
         public static void Main(string[] args)
         {
+            System.Console.WriteLine("Press any key to start execution.");
+            System.Console.ReadKey();
             new Chapter4Samples().OperatorsExamples();
-            //new Chapter4().ConditionalStatementExamples();
-            //new Chapter4().IterationStatementExmples();
+            new Chapter4Samples().ConditionalStatementExamples();
+            new Chapter4Samples().IterationStatementExmples();
             Console.ReadLine();
         }
     }
