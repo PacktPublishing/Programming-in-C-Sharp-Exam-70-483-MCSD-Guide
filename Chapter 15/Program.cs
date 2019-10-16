@@ -50,6 +50,14 @@ namespace Chapter_15
 
         static void Main(string[] args)
         {
+            var anonymousType = new
+            {
+                PropertyNum1 = "One",
+                PropertyNum2 = 2,
+                PropertyNum3 = true
+            };
+
+            Console.WriteLine(anonymousType.GetType().ToString());
             /*int i1 = 1;
             FileStream f1 = new FileStream("test.txt", FileMode.Open);
             string s1 = i1 + f1;
@@ -113,7 +121,7 @@ new Dictionary<string, IEnumerable<Tuple<Type, int>>>();
                 Name = "James"
             };
             Console.WriteLine(s.GetType().Name);*/
-            LINQXmlFunctions();
+            //LINQXmlFunctions();
             //LinqQueriesOperations();
             Console.ReadLine();
         }

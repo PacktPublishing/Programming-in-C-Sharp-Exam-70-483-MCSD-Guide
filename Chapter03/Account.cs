@@ -47,8 +47,16 @@ namespace Chapter_3
 
         public bool DepositMoney(float deposit)
         {
-            this.currentBalance = this.currentBalance + deposit;
-            return true;
+            if(deposit > 0.0f)
+            {
+                this.currentBalance = this.currentBalance + deposit;
+                return true;
+            }
+            else
+            {
+                return false;
+            }          
+            
         }
 
         public bool WithdrawMoney(float withdraw)

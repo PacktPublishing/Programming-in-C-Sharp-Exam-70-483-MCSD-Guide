@@ -10,27 +10,26 @@ namespace Chapter_9
     {
         static void Main(string[] args)
         {
-            /*object a = ReturnResult();
+            object a = ReturnResult();
             ReturnResultFinal(a);
             SampleFinalizerClass b = new SampleFinalizerClass();
             SampleNoFinalizeClass c = new SampleNoFinalizeClass();
             SampleNoFinalizeClass d = new SampleNoFinalizeClass();
-            GarbageCollectorFinalize(c);*/
-            /*Finalizer f = new Finalizer();
+            GarbageCollectorFinalize(c);
+            Finalizer f = new Finalizer();
             f = null;
             GC.Collect();
-            Console.ReadLine();*/
+            Console.ReadLine();
 
-            /*using (DisposeImplementation d = new DisposeImplementation())
+            using (DisposeImplementation d1 = new DisposeImplementation())
             {
-                throw new Exception("in here");
-            }*/
-            DisposeImplementation d = new DisposeImplementation();
-            throw new Exception("in here");
+                //throw new Exception("in here");
+            }
+            DisposeImplementation d2 = new DisposeImplementation();
             Console.ReadLine();
             GC.Collect();
             Console.ReadLine();
-            //GC.WaitForPendingFinalizers();
+            GC.WaitForPendingFinalizers();
         }
 
         static private object ReturnResult()

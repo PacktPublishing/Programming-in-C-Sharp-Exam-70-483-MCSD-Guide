@@ -13,7 +13,20 @@ namespace Chapter_14
     {
         static void Main(string[] args)
         {
-            DriveInfo[] allDrives = DriveInfo.GetDrives();
+            DirectoryInfo directoryInfoExists = new DirectoryInfo("C:\\UCN Code Base\\Programming-in-C-Exam-70-483-MCSD-Guide\\Book70483Samples\\Chapter 2199");
+            if (directoryInfoExists.Exists)
+            {
+                Console.WriteLine("It exists");
+            }
+            else
+            {
+                Console.WriteLine("Does not exists");
+            }
+
+            Console.ReadLine();
+
+
+            /*DriveInfo[] allDrives = DriveInfo.GetDrives();
 
             foreach (DriveInfo d in allDrives)
             {
