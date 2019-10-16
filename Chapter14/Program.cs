@@ -26,7 +26,7 @@ namespace Chapter_14
             Console.ReadLine();
 
 
-            /*DriveInfo[] allDrives = DriveInfo.GetDrives();
+            DriveInfo[] allDrives = DriveInfo.GetDrives();
 
             foreach (DriveInfo d in allDrives)
             {
@@ -47,8 +47,8 @@ namespace Chapter_14
                 Console.WriteLine("Directory last modified time is " + f.LastAccessTime);
             }
 
-            DirectoryInfo directoryInfoExists = new DirectoryInfo("C:\\UCN Code Base\\Programming-in-C-Exam-70-483-MCSD-Guide\\Book70483Samples\\Chapter 20");
-            if(directoryInfoExists.Exists)
+            DirectoryInfo directoryInfoExistsNew = new DirectoryInfo("C:\\UCN Code Base\\Programming-in-C-Exam-70-483-MCSD-Guide\\Book70483Samples\\Chapter 20");
+            if(directoryInfoExistsNew.Exists)
             {
                 Console.WriteLine("It exists");
             }
@@ -86,12 +86,12 @@ namespace Chapter_14
             Console.WriteLine(Path.GetPathRoot(properFilePath));
             Console.ReadLine();
 
-            /*string sourceFileLocation = "C:\\UCN Code Base\\Programming-in-C-Exam-70-483-MCSD-Guide\\Book70483Samples\\Chapter 20\\IO Operations.txt";
+            string sourceFileLocationNew = "C:\\UCN Code Base\\Programming-in-C-Exam-70-483-MCSD-Guide\\Book70483Samples\\Chapter 20\\IO Operations.txt";
             string targetFileLocation = "C:\\UCN Code Base\\Programming-in-C-Exam-70-483-MCSD-Guide\\Book70483Samples\\Chapter 21\\New File.txt";
 
-            if (File.Exists(sourceFileLocation))
+            if (File.Exists(sourceFileLocationNew))
             {
-                File.Move(sourceFileLocation, targetFileLocation);                
+                File.Move(sourceFileLocationNew, targetFileLocation);                
             }
             else
             {
@@ -111,7 +111,7 @@ namespace Chapter_14
             }
 
             File.Delete(sourceFileLocation);
-            */
+            
 
         }
 

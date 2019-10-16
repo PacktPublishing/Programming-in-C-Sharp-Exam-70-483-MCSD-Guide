@@ -58,15 +58,9 @@ namespace Chapter_15
             };
 
             Console.WriteLine(anonymousType.GetType().ToString());
-            /*int i1 = 1;
-            FileStream f1 = new FileStream("test.txt", FileMode.Open);
-            string s1 = i1 + f1;
-
-            var i = 1;
-            FileStream f = new FileStream("test.txt", FileMode.Open);
-            string s = i + f;*/
-
-            /*int[] numbers = new int[3] { 0, 1, 2};
+            
+            
+            int[] numbers = new int[3] { 0, 1, 2};
 
             var numQuery =
                 from num in numbers
@@ -120,9 +114,9 @@ new Dictionary<string, IEnumerable<Tuple<Type, int>>>();
                 rollNum = 1,
                 Name = "James"
             };
-            Console.WriteLine(s.GetType().Name);*/
-            //LINQXmlFunctions();
-            //LinqQueriesOperations();
+            Console.WriteLine(s.GetType().Name);
+            LINQXmlFunctions();
+            LinqQueriesOperations();
             Console.ReadLine();
         }
         

@@ -120,7 +120,7 @@ namespace Chapter_16
     {
         static void Main(string[] args)
         {
-            /*XmlSerializer serializer = new XmlSerializer(typeof(Student));
+            XmlSerializer serializer = new XmlSerializer(typeof(Student));
             string fileName = "StudentDataWithScores";
             using (TextWriter writer = new StreamWriter(fileName))
             {
@@ -156,7 +156,7 @@ namespace Chapter_16
             CollectionOperations();
             ListCollectionOperations();
             DictionaryCollectionOperations();
-            QueueOperations();*/
+            QueueOperations();
             StackOperations();
             Console.ReadLine();
         }
@@ -209,7 +209,7 @@ namespace Chapter_16
             {
                 Console.WriteLine(keyValue.Key + " " + keyValue.Value);
             }
-            vs.Add(1, 1000);
+            // vs.Add(1, 1000); This will result in an exception as the key is already existing in Dictionary object
             vs.Remove(1);
             vs.Add(5, 500);
             Console.WriteLine(vs.Count);
