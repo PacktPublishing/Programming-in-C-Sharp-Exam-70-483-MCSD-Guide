@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student Name="Simaranjit" rollNum="1">
+    <contactdetails>
+      <emailaddress>sbhalla@gmail.com</emailaddress>
+      <phoneNumber>0416274824</phoneNumber>
+      <MobileNumber>12345678</MobileNumber>
+    </contactdetails>
+  </Student>
+  <Student Name="James" rollNum="2">
+    <contactdetails>
+      <emailaddress>jamesdonohoe@gmail.com</emailaddress>
+      <MobileNumber>12345678</MobileNumber>
+    </contactdetails>
+  </Student>
+</Students>
