@@ -2,7 +2,7 @@
 
 <a href="https://www.packtpub.com/in/application-development/programming-c-exam-70-483-mcsd-guide?utm_source=github&utm_medium=repository&utm_campaign=9781789536577"><img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/9/7/9781789536577-original.jpeg" alt="Programming in C#: Exam 70-483 (MCSD) Guide " height="256px" align="right"></a>
 
-This is the code repository for [Programming in C#: Exam 70-483 (MCSD) Guide ](https://www.packtpub.com/in/application-development/programming-c-exam-70-483-mcsd-guide?utm_source=github&utm_medium=repository&utm_campaign=9781789536577), published by Packt.
+This is the code repository for [Programming in C#: Exam 70-483 (MCSD) Guide](https://www.packtpub.com/in/application-development/programming-c-exam-70-483-mcsd-guide?utm_source=github&utm_medium=repository&utm_campaign=9781789536577), published by Packt.
 
 **Learn basic to advanced concepts of C#, including C# 8, to pass Microsoft MCSD 70-483 exam**
 
