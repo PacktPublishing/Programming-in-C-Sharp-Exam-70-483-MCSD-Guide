@@ -191,7 +191,7 @@ namespace CodeSamples
             }
             else
             {
-                Console.WriteLine("Then-Statement condition 1 executed");
+                Console.WriteLine("Else-Statement condition 1 executed");
             }
 
             Console.Write("Enter a character: ");
